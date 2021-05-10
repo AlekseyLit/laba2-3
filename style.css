@@ -97,8 +97,66 @@ header{
 	color: #533738;
 	
 }
+.about_us{
+	background-color:#EFE6E4;
+}
+.about_us_container{
+	display:flex;
+	justify-content:center;
+}
+.about_us_container div{
+	width:590px;
+}
+.about_us_container div:first-child{
+	width:445px;
+}
+.about_us_container img{
+	margin-top:155px;
+	margin-bottom:21px;
+}
+.about_us_container h1{
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 50px;
+	text-align: left;
+	color: #533738;
+	margin-top:65px;
+	margin-bottom:40px;
 
-	
+}
+.about_us_container p{
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-left:62px;
+}
+.about_us_botton{
+	display:flex;
+	height:273px;
+	background: #8D7370;
+	justify-content:space-around;
+	align-items:center;
+}	
+.about_us_botton div{
+	text-align: center;
+}	
+.about_us_botton div p{
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 37px;
+	color: #FFFFFF;
+}	
+.about_us_botton div p:first-child{
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 62px;
+}	
+.our_works{
+	background-color:#EFE6E4;
+}
 
 
 	
