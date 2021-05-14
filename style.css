@@ -42,13 +42,13 @@ header{
 .nav_menu ul li:last-child{
 	margin-right: 0;
 }
-.nav_menu a{
+nav a{
 	text-decoration: none;
 	font-family: 'Montserrat';
     font-size: 16px;
     color: #533738;
 }
-a:hover {
+nav a:hover {
     color: #cc8b86;
 }
 .nav_phone{
