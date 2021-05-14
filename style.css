@@ -374,4 +374,83 @@ a:hover {
 } 
 .reviews_container div:nth-child(2) p{
 	margin-bottom:19px;
+}
+.contacts{
+	background: #8D7370;
+	height:624px;
 }	
+.contacts_container{
+	display:flex;
+}
+.contacts_container h1{
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 50px;
+	color: #FFFFFF;
+	margin-top:50px;
+}
+.contacts_container div:first-child{
+	width:508px;
+	margin-left:181px;
+	margin-right:20px;
+}
+.contacts_container p{
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #FFFFFF;
+	margin-top:24px;
+	margin-bottom:44px;
+}
+.contacts_container form div{
+	border-bottom:1px solid #FFFFFF;
+	padding-bottom:4px;
+}
+.contacts_container form div:first-child{
+	margin-bottom:40px;
+	margin-left:0;
+}
+.contacts_container label{
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #F6EDE9;
+}
+.contacts_container input{
+	background:transparent;
+	border:transparent;
+}
+.contacts_container .button{
+	width:309px;
+	height:74px;
+	background: #CC8B86;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #533738;
+	margin-top:31px;
+}
+
+footer{
+	display:flex;
+	justify-content:space-around;
+	padding-top:37px;
+	padding-bottom:37px;
+	background-color:#EFE6E4;
+}
+footer div{
+	display:flex;
+}
+footer p{
+	margin-right:42px;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #533738;
+
+}
