@@ -218,6 +218,7 @@ a:hover {
     grid-row: 4/5;
 	display:flex;
 	align-items:center;
+	margin-bottom:65px;
 }
 .our_works_container div:nth-child(6) img{
 	width:60px;
@@ -227,7 +228,7 @@ a:hover {
 	position: absolute;
     top: -454px;
     left: 0;
-	z-index: -1;
+	z-index: -10;
     width: 100%;
 	height:100%;
     color: white;
@@ -241,7 +242,6 @@ a:hover {
 	font-weight: 500;
 	line-height: 37px;
 	text-align:center;
-	
 }
 .our_works_hover p{
 	font-family: Montserrat;
@@ -254,4 +254,73 @@ a:hover {
 }
 .our_works_container div:nth-child(2):hover .our_works_hover{
 	z-index: 10;
+}
+.team{
+	background: #E2C4BA;
+	padding-top:50px;
+	padding-bottom:80px;
+}	
+.team h1{
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 50px;
+	color: #533738;
+	text-align:center;
+	margin-bottom:42px;
+}
+.team_container{
+	display:flex;
+	justify-content:center;
+}
+.team_container div{
+	margin-left:36px;
+}
+.team_container div:first-child{
+	margin-left:0;
+}
+.team_container p{
+	width:320px;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top:10px;
+	color: #533738;
+}
+.team_container_2{
+	display:flex;
+	justify-content:center;
+}
+.team_container_2 div{
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #533738;
+	width:285px;
+	margin-left:20px;
+}
+.team_container_2 div:first-child{
+
+}
+.team_container_2 .circle{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #FFFFFF;
+	background: #8D7370;
+	width:70px;
+	height:70px;
+	border-radius:35px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:20px;
+}
+.team_container_2  p{
+	text-align:center;
 }
