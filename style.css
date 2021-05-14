@@ -324,3 +324,54 @@ a:hover {
 .team_container_2  p{
 	text-align:center;
 }
+.reviews{
+	background-color:#EFE6E4;
+	padding-top:65px;
+	padding-bottom:65px;
+}
+.reviews h1{
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 50px;
+	color: #533738;
+	text-align:center;
+}
+.reviews_container{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}	
+.reviews_container div:nth-child(1), 
+.reviews_container div:nth-child(4){
+	width:72px;
+	height:72px;
+	background: #CC8B86;
+	border-radius:36px;
+}
+.reviews_container div:nth-child(1) img,
+.reviews_container div:nth-child(4) img{
+	display:block;
+	margin-left:20px;
+	margin-top:30px;
+}
+.reviews_container div:nth-child(3) img{
+	display:block;
+	margin-right:29px;
+}	
+.reviews_container div:nth-child(3) img:first-child{
+	margin-top:40px;
+	margin-bottom:24px;
+}
+.reviews_container div:nth-child(2){
+	width:407px;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-left:29px;
+	margin-right:20px;
+} 
+.reviews_container div:nth-child(2) p{
+	margin-bottom:19px;
+}	
