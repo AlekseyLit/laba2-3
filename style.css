@@ -11,6 +11,10 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
 }
+a{
+	text-decoration: none;
+}
+
 .nav_container{
     display:flex;
 	justify-content:space-evenly;
@@ -56,6 +60,9 @@ nav a:hover {
 	font-family: 'Montserrat';
     font-size: 16px;
     color: #533738;
+}
+nav .button a:hover{
+	color: #FFFFFF;
 }
 .services_container{
 	margin-top:94px; 
@@ -133,24 +140,24 @@ nav a:hover {
 	line-height: 30px;
 	margin-left:62px;
 }
-.about_us_botton{
+.about_us_bottom{
 	display:flex;
 	height:273px;
 	background: #8D7370;
 	justify-content:space-around;
 	align-items:center;
 }	
-.about_us_botton div{
+.about_us_bottom div{
 	text-align: center;
 }	
-.about_us_botton div p{
+.about_us_bottom div p{
 	font-family: Montserrat;
 	font-size: 30px;
 	font-weight: 500;
 	line-height: 37px;
 	color: #FFFFFF;
 }	
-.about_us_botton div p:first-child{
+.about_us_bottom div p:first-child{
 	font-size: 50px;
 	font-weight: 400;
 	line-height: 62px;
@@ -214,11 +221,14 @@ nav a:hover {
     grid-row: 3/4;
 }
 .our_works_container div:nth-child(6){
-    grid-column: 3/5;
+    grid-column: 2/5;
     grid-row: 4/5;
-	display:flex;
-	align-items:center;
 	margin-bottom:65px;
+}
+.our_works_container div:nth-child(6) .see_more{
+	display:flex;
+	justify-content:center;
+	align-items: center;
 }
 .our_works_container div:nth-child(6) img{
 	width:60px;
@@ -433,6 +443,9 @@ nav a:hover {
 	line-height: 24px;
 	color: #533738;
 	margin-top:31px;
+}
+.contacts_container .button:hover{
+	color: #FFFFFF;
 }
 
 footer{
